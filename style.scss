@@ -207,6 +207,11 @@ body {
   height: 350px;
   border-radius: 50%;
   margin-top: -40px;
+  transition: transform 0.4s;
+  box-shadow: #44443c 1px 1px 17px;
+}
+.my-photo:hover {
+  transform: scale(1.08);
 }
 
 .wrapper {
@@ -300,6 +305,11 @@ body {
   text-shadow: #0e0e0d 1px 1px 8px;
   padding-top: 3px;
   box-shadow: #44443c 1px 1px 17px;
+  transition: transform 0.4s;
+}
+.zoom-in:hover {
+  transform: scale(1.2);
+  color: #ff3333;
 }
 .skills img {
   margin: 0 auto;

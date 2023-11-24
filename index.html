@@ -9,6 +9,7 @@
     rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
   />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
@@ -20,7 +21,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <aside class="sidebar border">
+    <aside class="sidebar border" data-aos="fade-right">
         <header class="siderbar-header">
             <img
             class="logo-img" src="assets/images/eu.jpg" alt="foto do eduardo">
@@ -88,11 +89,11 @@
     </button>
 
     <!--   -->
-    <main class="main">
-                <img src="./assets/images/eu.jpg" alt="foto eduardo" class="my-photo">
+    <main class="main" >
+                <img src="./assets/images/eu.jpg" alt="foto eduardo" class="my-photo" data-aos="fade-up">
                 <div class="wrapper">
-                    <div class="texto-estatico"><p>Hi, I'm Carlos Eduardo</p></div>
-                    <div class="texto-dinamico">
+                    <div class="texto-estatico" data-aos="zoom-in" ><p>Hi, I'm Carlos Eduardo</p></div>
+                    <div class="texto-dinamico" data-aos="zoom-in" >
                         <p>I am a <span>Front-end Developer</span></p>
                     </div>
                 </div>
@@ -101,16 +102,16 @@
 <div class="line"></div>
 
     <section class="section-first">
-        <p class="tittle-section">HARD SKILLS</p>
+        <p class="tittle-section" data-aos="zoom-in-up">HARD SKILLS</p>
         <span class="skills">
             <ul>
-                <li class="red">HTML <img class="red" src="./assets/images/html.png" alt=""></li>
-                <li class="red">CSS <img  class="red" src="./assets/images/css.png" alt=""></li>
-                <li class="red">JavaScript <img class="red" src="./assets/images/javascript.png" alt=""></li>
-                <li class="red">GIT <img class="red" src="./assets/images/git.png" alt=""></li>
-                <li class="red">jQuery <img class="red" src="./assets/images/jquery.png" alt=""></li>
-                <li class="red">Bootstrap <img class="red" src="./assets/images/bootstrap.png" alt=""></li>
-                <li class="red">Tailwind <img class="red" id="tailwind" src="./assets/images/tailwind.png" alt=""></li>
+                <li class="red" data-aos="zoom-in">HTML <img class="red" src="./assets/images/html.png" alt=""></li>
+                <li class="red" data-aos="zoom-in">CSS <img  class="red" src="./assets/images/css.png" alt=""></li>
+                <li class="red" data-aos="zoom-in">JavaScript <img class="red" src="./assets/images/javascript.png" alt=""></li>
+                <li class="red" data-aos="zoom-in">GIT <img class="red" src="./assets/images/git.png" alt=""></li>
+                <li class="red" data-aos="zoom-in">jQuery <img class="red" src="./assets/images/jquery.png" alt=""></li>
+                <li class="red" data-aos="zoom-in">Bootstrap <img class="red" src="./assets/images/bootstrap.png" alt=""></li>
+                <li class="red" data-aos="zoom-in">Tailwind <img class="red" id="tailwind" src="./assets/images/tailwind.png" alt=""></li>
             </ul>
         </span>
     </section>
@@ -118,9 +119,11 @@
 
 
 
+
     <!--BUTTON PARA VOLTAR HOME-->
     <a href="#" class="btn"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M214.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 141.2V448c0 17.7 14.3 32 32 32s32-14.3 32-32V141.2L329.4 246.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160z"/></svg></a>
 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="script.js"></script>
     <script src="/partials/particles.js"></script>
     <script src="/partials/app.js"></script>

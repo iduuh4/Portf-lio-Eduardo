@@ -1,3 +1,5 @@
+AOS.init();
+
 const toggleButton = document.querySelector(".button-mobile");
 const sidebar = document.querySelector(".sidebar");
 const toggleButtonClose = document.querySelector(".button-mobile-close");
